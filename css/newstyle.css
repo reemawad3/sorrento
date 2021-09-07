@@ -1,0 +1,170 @@
+*{  font-family:Helvetica;
+  
+}
+body{  
+    display: flex;
+    flex-direction: column;
+}
+.container{
+	max-width:60%;
+	margin:auto;
+	background-color:#fff;
+	padding:10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+ul.bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+  }
+  li {
+    margin: 0.5em;
+    padding: 0.5em;
+    flex-basis: auto;
+}
+.bar .current{
+    background-color:#87423c;
+}
+
+.bar li a{
+    text-decoration: none;
+     color: #4d1d18;
+     border-radius: 10px;
+  padding: 10px;
+
+   font-size: 24px;
+}  
+.bar li a:hover{
+    
+    background:#555;   
+ }
+
+.bar li a:visited{
+    color:rgb(172, 120, 142);
+}
+.bar li a:focus{
+    color:#0a0a0a;
+}
+h1{ 
+    color:#87423c;
+    font-size: 36px;
+   text-align: center;
+   padding: 10px;
+}  
+    h2{
+        font-size:24px;
+        color:#1b1b37;
+        font-family:cursive;
+    }
+    p{
+        line-height: 150%;
+        font-family: Helvetica;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #87423c;
+
+    
+        }
+    
+
+    /*home
+--------------------------------------------*/
+.side{
+    float: right;
+    margin-top:50px;   
+}
+.video{
+    height:300px;
+    width:500px;
+    margin-bottom: 2px;
+    margin-right:20px;
+    
+}
+/*About us
+--------------------------------------------*/
+.sidephoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%
+}
+/*contact us
+--------------------------------------------*/
+.sidemap{
+    width: 55%;
+    float: right;
+    margin-top:90px; 
+
+}
+.sec3{
+    padding:2px;
+    margin-left:20px;
+}
+
+.map{
+    width:95%;
+    height:300px;
+    
+}
+
+
+.book {
+    text-decoration: none;
+    display:block ;
+    padding:3px;
+    color: #4d1d18;
+    cursor: pointer;
+  border-radius: 20px;
+  padding: 15px 32px;
+  text-align: center;
+     outline: navajowhite;
+   border: none;
+  background-color: rgb(207, 203, 203);
+ transition:  transform .5s .25s ease-in-out;
+  box-shadow: 0 9px #999;
+    margin-top:60px;
+    max-width: 300px;
+    width:40%;
+    
+}  
+
+ .book:hover{
+    
+    background:#555;
+    
+ }
+/*book now
+--------------------------------------------*/
+.info{
+    text-align: center;
+}
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  /*-----------*/
+
+  .mySlides {
+      display:none;
+    }
